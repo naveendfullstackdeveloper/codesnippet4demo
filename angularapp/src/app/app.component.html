@@ -1,0 +1,82 @@
+<h1>{{title}}</h1>
+
+<div id="resp-table">
+  <div id="resp-table-body">
+    <div class="resp-table-row">
+      <div class="table-body-cell">
+      </div>
+      <div class="table-body-cell">
+        <label><span style="color:red;">*</span>Weight (Kg) : </label>
+      </div>
+      <div class="table-body-cell">
+        <input [(ngModel)]="courier.weight" required minlength="1" />
+      </div>
+      <div class="table-body-cell">
+      </div>
+    </div>
+    <div class="resp-table-row">
+      <div class="table-body-cell">
+      </div>
+      <div class="table-body-cell">
+        <label><span style="color:red;">*</span>Height (cms): </label>
+      </div>
+      <div class="table-body-cell">
+        <input [(ngModel)]="courier.height" required minlength="1" />
+      </div>
+      <div class="table-body-cell">
+      </div>
+    </div>
+    <div class="resp-table-row">
+      <div class="table-body-cell">
+      </div>
+      <div class="table-body-cell">
+        <label><span style="color:red;">*</span>Width: (cms)</label>
+      </div>
+      <div class="table-body-cell">
+        <input [(ngModel)]="courier.width" required minlength="1" />
+      </div>
+      <div class="table-body-cell">
+
+      </div>
+    </div>
+
+
+
+    <div class="resp-table-row">
+      <div class="table-body-cell">
+
+      </div>
+      <div class="table-body-cell">
+        <label><span style="color:red;">*</span>Depth: (cms)</label>
+      </div>
+      <div class="table-body-cell">
+        <input [(ngModel)]="courier.depth" required minlength="1" />
+      </div>
+      <div class="table-body-cell">
+
+      </div>
+    </div>
+
+    <div class="resp-table-row">
+      <div class="table-body-cell">
+
+      </div>
+      <div class="table-body-cell">
+        <button (click)="checkPrice()">Cancel</button>
+      </div>
+      <div class="table-body-cell">
+        <button (click)="checkPrice()">Check Price</button>
+      </div>
+      <div class="table-body-cell">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="price-display-line">
+  <b class="price-display">Price of the Courier :</b>:
+  <div>  <h2>{{customessge}}</h2> </div>
+</div>
+

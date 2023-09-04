@@ -1,0 +1,2 @@
+C:\Users\dnks8\source\repos\PageUpCouriers\angularapp\obj\Debug\PageUpangularapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\dnks8\source\repos\PageUpCouriers\angularapp\obj\Debug\PageUpangularapp.esproj.CoreCompileInputs.cache
